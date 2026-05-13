@@ -1,1 +1,15 @@
-# RepoLens
+- **CLI Interface** — Command-line tool to manage repos, analysis, and monitoring.
+- **Local Web Dashboard** — Browser-based UI for visualizing repos, issues, graphs, and notifications.
+- **GitHub Monitor** — Tracks PRs, issues, mentions, commits, and repository events.
+- **Repo Explorer** — Browse repository structure, files, folders, and README easily.
+- **AI Codebase Assistant** — Explains files, folders, architecture, and summarizes code/PRs.
+- **Trace Flow Engine** — Shows function calls, dependencies, imports, and execution flow visually.
+- **Contribution Assistant** — Finds good first issues, setup steps, and related files for contributors.
+- **CI/CD Monitor** — Displays GitHub Actions, build status, deployments, and failed pipelines.
+- **Notifications System** — Real-time alerts for PRs, mentions, CI failures, and issue updates.
+- **Code Analysis Engine** — Uses Tree-sitter, ctags, and graphs for repo intelligence and indexing.
+- **Semantic Search** — Search codebase using meaning/context instead of exact keywords.
+- **Local Repo Storage** — Stores cloned repos, cache, metadata, logs, and indexed data locally.
+- **Git Integration** — Clone, pull, sync, and analyze repositories locally.
+- **Offline Support** — Core repo analysis features work locally without internet after indexing.
+- **Extensible Architecture** — New modules, integrations, and services can be added easily later.
