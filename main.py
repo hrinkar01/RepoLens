@@ -10,7 +10,7 @@ print("-----------------------------------------------")
 
 def main():
     print("1. Clone Repository ")
-    print("2. [Offline] Repository Explorer ")
+    print("2. [Offline] Repository File Explorer ")
     query = input("Choose an option to perform: ")
 
 

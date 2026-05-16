@@ -3,9 +3,9 @@ from .fileCount import counter
 def repoExplorer():
     repoPath = input("Enter the repository path to view its structure: ")
     print("""
-        1. View Repository Structure
-        2. About Repo
-        3. View Files Content
+        1. View Repository File Structure
+        2. About Files
+        3. View File Content
 """)
     
     expQuery = input("Choose an option from give above functions: ")
