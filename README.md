@@ -65,6 +65,11 @@ RepoLens is a local-first visual repository intelligence and open-source contrib
 ## Integrations
 - GitHub API
 
+## DevOps & Setup
+- Docker
+- Docker Compose
+- Setup Scripts
+
 ---
 
 # Design Principles
@@ -74,3 +79,26 @@ RepoLens is a local-first visual repository intelligence and open-source contrib
 - Modular and extensible system design
 - Offline-capable workflows
 - Contributor-friendly experience
+
+---
+
+# Future Goals
+- One-command local setup
+- Dockerized development environment
+- Cross-platform support
+- Advanced repository visualization
+- AI-assisted debugging and onboarding
+- Plugin and extension system
+- Large-scale monorepo support
+
+---
+
+# Setup Philosophy
+
+RepoLens is designed as a local-first platform where all repository analysis, indexing, and visualization happen on the user's machine. No repository data is sent to external servers or cloud-hosted LLMs by default.
+
+Future versions will support:
+- Automated setup scripts
+- Docker-based installation
+- Plug-and-play local development environments
+```
