@@ -1,20 +1,15 @@
-**Basic Architecture of RepoLens**
+# Architecture
 
+```text
 User
-
 ↓
-
-
-CLI / Web Dashboard
-
+Next.js Frontend Dashboard
 ↓
-
-Backend Services
-
+FastAPI Backend Services
 ↓
-
-GitHub API + Analysis Engine
-
+Analysis Engine + GitHub Integration
 ↓
+SQLite Database + Local Repository Storage
+```
 
-Database
+---
