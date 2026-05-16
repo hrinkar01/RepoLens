@@ -122,32 +122,7 @@ this is my current project overview in obsidian as notes improve this
 - **Git Integration** — Clone, pull, sync, and analyze repositories locally.
 - **Offline Support** — Core repo analysis features work locally without internet after indexing.
 - **Extensible Architecture** — New modules, integrations, and services can be added easily later.
-- Blast Radius Mechanism
-
-### **Tech Stack:**
-Frontend:
-- Next.js
-- Tailwind CSS
-- React Flow
-- Cytoscape.js
-
-Backend:
-- FastAPI
-- Python
-
-Analysis:
-- Tree-sitter
-- GitPython
-- NetworkX
-
-Database:
-- SQLite
-
-Search:
-- sentence-transformers
-
-Integrations:
-- GitHub API
+- **Blast Radius Mechanism**
 
 ---
 
