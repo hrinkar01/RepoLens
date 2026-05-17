@@ -1,8 +1,8 @@
-from trackPR import pr
-from trackIssue import issue
-from trackCommit import commit
-from trackEvents import events
-from trackUnlinkedIssues import unlinked_issues
+from .trackPR import pr
+from .trackIssue import issue
+from .trackCommit import commit
+from .trackEvents import events
+from .trackUnlinkedIssues import unlinked_issues
 
 def track():
     owner = input("Enter Github Owner: ")
@@ -17,7 +17,7 @@ def track():
     tquery = input("Choose an option from the above: ")
     
     if tquery == "1":
-        pr(owner, repo_name)
+        trackPR.pr(owner, repo_name)
     elif tquery == "2":
         issue(owner, repo_name)
     elif tquery == "3":
@@ -26,4 +26,3 @@ def track():
         commit(owner, repo_name)
     elif tquery == "5":
         events(owner, repo_name)
-track()

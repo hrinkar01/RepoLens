@@ -9,9 +9,12 @@ print("|                                             |")
 print("-----------------------------------------------")
 
 def main():
-    print("1. Clone Repository ")
-    print("2. [Offline] Repository File Explorer ")
-    print("3. Github Repository Tracker")
+    print("""------------------------------------------------
+|  1. Clone Repository                         |  
+|  2. [Offline] Repository File Explorer       |
+|  3. Github Repository Tracker                |
+------------------------------------------------
+             """)
     query = input("Choose an option to perform: ")
 
 
@@ -23,4 +26,9 @@ def main():
         print("Dont forget to add your Personal Access Token (PAT)")
         track()
 
-main()
+while True:
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nProgram stopped by user")
+        break
