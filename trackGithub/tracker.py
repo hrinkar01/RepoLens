@@ -1,6 +1,8 @@
 from trackPR import pr
 from trackIssue import issue
-
+from trackCommit import commit
+from trackEvents import events
+from trackUnlinkedIssues import unlinked_issues
 
 def track():
     owner = input("Enter Github Owner: ")
@@ -8,7 +10,7 @@ def track():
     print("""
           1. Track PR
           2. Track Issues
-          3. Track Issues without Pr
+          3. Track Issues without any linked PR
           4. Track Commits
           5. Track Events
           """)
@@ -18,4 +20,10 @@ def track():
         pr(owner, repo_name)
     elif tquery == "2":
         issue(owner, repo_name)
+    elif tquery == "3":
+        unlinked_issues(owner, repo_name)
+    elif tquery == "4":
+        commit(owner, repo_name)
+    elif tquery == "5":
+        events(owner, repo_name)
 track()
