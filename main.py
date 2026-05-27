@@ -11,7 +11,7 @@ print("-----------------------------------------------")
 def main():
     print("""------------------------------------------------
 |  1. Clone Repository                         |  
-|  2. [Offline] Repository File Explorer       |
+|  2. [Offline] Repository / File Explorer       |
 |  3. Github Repository Tracker                |
 ------------------------------------------------
              """)

@@ -1,8 +1,10 @@
+#python -m trackGithub.tracker
 from .trackPR import pr
 from .trackIssue import issue
 from .trackCommit import commit
 from .trackEvents import events
 from .trackUnlinkedIssues import unlinked_issues
+from trackGithub import trackPR
 
 def track():
     owner = input("Enter Github Owner: ")

@@ -23,3 +23,4 @@ def repoExplorer():
         subprocess.run(['cat', file_path], check=True)
         print("\n")
 
+repoExplorer()
